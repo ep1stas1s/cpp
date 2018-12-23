@@ -1,0 +1,6 @@
+﻿  main_chapter11.cpp
+d:\c++\tbcppstudy\chapter1_1\main_chapter11.cpp(7): warning C4326: 'main'의 반환 형식이 'int'이어야 하는데 'float'입니다.
+d:\c++\tbcppstudy\chapter1_1\main_chapter11.cpp(18): warning C4477: 'printf' : 서식 문자열 '%.3g'에 'double' 형식의 인수가 필요하지만 variadic 인수 1의 형식이 '__int64'입니다.
+d:\c++\tbcppstudy\chapter1_1\main_chapter11.cpp(27): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(1274): note: 'scanf' 선언을 참조하십시오.
+  Chapter1_1.vcxproj -> D:\C++\TBCppStudy\Debug\Chapter1_1.exe
