@@ -30,5 +30,11 @@
     <ClCompile Include="ArrayPointer5.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ArrayPointer6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayPointer7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
