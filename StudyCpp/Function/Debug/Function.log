@@ -1,2 +1,3 @@
-﻿  Function2.cpp
+﻿  Function3.cpp
+d:\cpp\studycpp\function\function3.cpp(36): warning C4244: '초기화 중': 'time_t'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
   Function.vcxproj -> D:\cpp\StudyCpp\Debug\Function.exe

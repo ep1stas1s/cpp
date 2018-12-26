@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main() {
+	FILE *in, *out;	// 스트림
+
+	in = fopen("FileIO.cpp", "r");	// r = read
+	//out = fopen("output.txt", "w");	// w = write (안의 파일이 전부 지워지고 새로 씀)
+	out = fopen("output.txt", "a");	// a = append? (기존 내용을 보존하면서 추가함)
+
+	if (in != nullptr) {		// fopen에서 오타 등의 이유에 의해 경로가 맞지 않을 때
+								// null로 출력
+		char ch;
+		/*while (!feof(in)) {
+			fscanf(in, "%c", &ch);
+			fprintf(out, "%c", ch);
+		}*/
+		// 위 code = 아래 code
+		while (fscanf(in, "%c", &ch) != -1) {	// fscanf 가 입력받은 글자 수를 return
+												// EOF == -1
+			fprintf(out, "%c", ch);
+		}
+		
+
+		// 한 번에 파일을 열 수 있는 양에 한계가 있음
+		// 일 끝나면 fclose로 닫아줘야 함
+		fclose(in);
+		fclose(out);
+
+	}
+}
